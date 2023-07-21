@@ -19,3 +19,8 @@ Send notes and URLs to Roam from MacOSX and iOS using Siri, or the Share Sheet, 
     1. your Mac or iOS device may hear 'Roam Note' as 'Rome Note'. If so, duplicate the shortcut Roam Note and rename the duplicate to 'Rome Note'
     2. notes are sent and stored unencrypted. Do not use personal or private data. Use at your own risk.
     3. The php code I used for the server is in roamnotes.php. Feel free to implement your own.
+
+## Credit
+    This implementation is based off the idea of Artur Piszek
+    Firebase did my head in
+    https://piszek.com/2022/01/13/firebase2roam/
