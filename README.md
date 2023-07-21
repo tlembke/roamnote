@@ -23,4 +23,4 @@ Send notes and URLs to Roam from MacOSX and iOS using Siri, or the Share Sheet, 
 ## Credit
     This implementation is based off the idea of Artur Piszek
     Firebase did my head in
-    https://piszek.com/2022/01/13/firebase2roam/
+    https://piszek.com/2022/01/13/firebase2roam/ 
