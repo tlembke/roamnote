@@ -13,12 +13,13 @@ Send notes and URLs to Roam from MacOSX and iOS using Siri, or the Share Sheet, 
 10. try selecting text and R clicking / Ctl clicking on it, then Services->Roam or Share -> Shortcuts -> Roam Note
 11. on Mac, add Shortcuts to the MenuBar and then select 'Roam Note' from there
 12. on iOS, in the Shortcuts App, add  'Roam Note' to the Home Screen and run the app
+13. In the latest version of the js code, if the url is an image or pdf file, roamnote will attempt to import the file into Roam. pdfs will often not work due to CORS restrictions. Images will need to be opened in their own tab before sharing, or the url of the image can be copied and then pasted into Roam Note (The Roam Note that runs in the SHortcuts on the MenuBar is useful for this, or I use the shortocde opt-ctl-R).
 
 
 ## Notes
     1. your Mac or iOS device may hear 'Roam Note' as 'Rome Note'. If so, duplicate the shortcut Roam Note and rename the duplicate to 'Rome Note'
     2. notes are sent and stored unencrypted. Do not use personal or private data. Use at your own risk.
-    3. The php code I used for the server is in roamnotes.php. Feel free to implement your own.
+    3. The php code I used for the server is in roamnotes.php. You can use my server so you won't need to use this, but also feel free to implement your own.
 
 ## Credit
     This implementation is based off the idea of Artur Piszek
