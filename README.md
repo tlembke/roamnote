@@ -18,7 +18,7 @@ To send notes, URLs, pdfs and images from MacOSX and iOS to Roam Research using 
 
 9. For MacOSX users, share a page from Chrome, Arc, or Safari using the following path: Share Menu -> Shortcuts -> Roam Note.
 
-10. Try selecting text, then right-click or control-click on it. Choose either Services -> Roam or Share -> Shortcuts -> Roam Note.
+10. Try selecting text, then right-click or control-click on it. Choose either Services -> Roam, or Share -> Shortcuts -> Roam Note.
 
 11. For MacOSX users, add Shortcuts to the MenuBar and select 'Roam Note' from the options.
 
