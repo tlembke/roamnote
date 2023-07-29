@@ -1,28 +1,39 @@
-# roamnote
-Send notes and URLs to Roam from MacOSX and iOS using Siri, or the Share Sheet, or the Services/Context menu
+To send notes,URLs, pdfs and images from MacOSX and iOS to Roam Research using Siri, the Share Sheet, or the Services/Context menu, follow these steps:
 
-1. Create a roam block containing the text {{[[roam/js]]}}
-2. Create a javascript code block as a child. Paste in the code in roamnote.js
-3. Make up your own databaseToken. This should contain only numbers or letters. It should be unique eg "6DftgR64aY"
-4. Add your databaseToken to the appropriate place in the javascript code.
-5. You can change noteTag and timeInterval or leave default. Please do not leave timeInterval at less than 5 minutes when you have finished testing if you are using the default database server at lemlink.com.au
-6. Import the Apple Shortcut 'Roam Note' from https://www.icloud.com/shortcuts/e2cacf8bca6b401fbb9b8f349792da26
-8. When you first run the shortcut, enter the databaseToken you made up in step 3
-9. try "Hey Siri, Roam Note"
-10. On Mac, try sharing a page from Chrome, Arc or Safari using the Share Menu -> Shortcuts -> Roam Note
-11. try selecting text and R clicking / Ctl clicking on it, then Services->Roam or Share -> Shortcuts -> Roam Note
-12. on Mac, add Shortcuts to the MenuBar and then select 'Roam Note' from there
-13. on iOS, you can share a webpage or image or text using Roam Note on the share menu
-14. on iOS, in the Shortcuts App, add  'Roam Note' to the Home Screen and run the app
-15. In the latest version of the js code, if the url is an image or pdf file, roamnote will attempt to import the file into Roam. pdfs will often not work due to CORS restrictions. Images will need to be opened in their own tab before sharing, or the url of the image can be copied and then pasted into Roam Note (The Roam Note that runs in the SHortcuts on the MenuBar is useful for this, or I use the shortocde opt-ctl-R).
+1. Create a new block in your Roam graph with the text `{{[[roam/js]]}}`.
 
+2. Make a child block under the `{{[[roam/js]]}}` block, and set it as a JavaScript code block. Copy and paste the code from `roamnote.js` into this block.
 
-## Notes
-    1. your Mac or iOS device may hear 'Roam Note' as 'Rome Note'. If so, duplicate the shortcut Roam Note and rename the duplicate to 'Rome Note'
-    2. notes are sent and stored unencrypted. Do not use personal or private data. Use at your own risk.
-    3. The php code I used for the server is in roamnotes.php. You can use my server so you won't need to use this, but also feel free to implement your own.
+3. Generate your own unique `databaseToken`. This token can only contain numbers or letters, for example, "6DftgR64aY".
 
-## Credit
-    This implementation is based off the idea of Artur Piszek
-    Firebase did my head in
-    https://piszek.com/2022/01/13/firebase2roam/ 
+4. Search for the designated area in the JavaScript code to place your `databaseToken`, and insert it there.
+
+5. Optional: Modify `noteTag` and `timeInterval` in the code. If you're using the default database server at lemlink.com.au, keep `timeInterval` greater than 5 minutes after testing.
+
+6. Import the Apple Shortcut 'Roam Note' from [this link](https://www.icloud.com/shortcuts/e2cacf8bca6b401fbb9b8f349792da26).
+
+7. Upon initial execution of the shortcut, you will be prompted to input the `databaseToken` you generated in step 3.
+
+8. Test the shortcut by saying, "Hey Siri, Roam Note".
+
+9. For MacOSX users, share a page from Chrome, Arc, or Safari using the following path: Share Menu -> Shortcuts -> Roam Note.
+
+10. Try selecting text, then right-click or control-click on it. Choose either Services -> Roam or Share -> Shortcuts -> Roam Note.
+
+11. For MacOSX users, add Shortcuts to the MenuBar and select 'Roam Note' from the options.
+
+12. On iOS, you can use the 'Roam Note' option on the share menu to share a webpage, image, or text.
+
+13. In the iOS Shortcuts App, add 'Roam Note' to the Home Screen and execute the app.
+
+14. The latest `roamnote.js` code will attempt to import an image or PDF file's URL into Roam. Note that due to CORS restrictions, PDFs may not work. Images must be opened in a separate tab before sharing, or you can copy the image URL and paste it into 'Roam Note'.
+
+   Please be aware of the following:
+
+   1. Your Mac or iOS device might misinterpret 'Roam Note' as 'Rome Note'. If this happens, create a duplicate of the 'Roam Note' shortcut and rename it to 'Rome Note'.
+
+   2. All notes are sent and stored unencrypted, so avoid using personal or sensitive information. Use at your own risk.
+
+   3. The PHP code for the server is available in `roamnotes.php`. You can utilize my server, or feel free to set up your own.
+
+Credit: This implementation is based on the idea by Artur Piszek. [Here's the link to the source](https://piszek.com/2022/01/13/firebase2roam/).
