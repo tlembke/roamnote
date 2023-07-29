@@ -6,7 +6,7 @@ To send notes, URLs, pdfs and images from MacOSX and iOS to Roam Research using 
 
 3. Generate your own unique `databaseToken`. This token can only contain numbers or letters, for example, "6DftgR64aY".
 
-4. Search for the designated area in the JavaScript code to place your `databaseToken`, and insert it there.
+4. Search for the designated area in the JavaScript code to place your `databaseToken`, (Line 5) and insert it there.
 
 5. Optional: Modify `noteTag` and `timeInterval` in the code. If you're using the default database server at lemlink.com.au, keep `timeInterval` greater than 5 minutes after testing.
 
