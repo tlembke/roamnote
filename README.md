@@ -1,4 +1,4 @@
-To send notes,URLs, pdfs and images from MacOSX and iOS to Roam Research using Siri, the Share Sheet, or the Services/Context menu, follow these steps:
+To send notes, URLs, pdfs and images from MacOSX and iOS to Roam Research using Siri, the Share Sheet, or the Services/Context menu, follow these steps:
 
 1. Create a new block in your Roam graph with the text `{{[[roam/js]]}}`.
 
