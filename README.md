@@ -3,10 +3,10 @@ Send notes and URLs to Roam from MacOSX and iOS using Siri, or the Share Sheet, 
 
 1. Create a roam block containing the text {{[[roam/js]]}}
 2. Create a javascript code block as a child. Paste in the code in roamnote.js
-3. Make up your own databaseToken. This should contain only numbers or letters. It should be unique
+3. Make up your own databaseToken. This should contain only numbers or letters. It should be unique eg "6DftgR64aY"
 4. Add your databaseToken to the appropriate place in the javascript code.
 5. You can change noteTag and timeInterval or leave default. Please do not leave timeInterval at less than 10 minutes when you have finsinhed testing if you are using the default database server at lemlink.com.au
-6. Download the Apple Shortcut 'Roam Note' from https://www.icloud.com/shortcuts/e2cacf8bca6b401fbb9b8f349792da26
+6. Import the Apple Shortcut 'Roam Note' from https://www.icloud.com/shortcuts/e2cacf8bca6b401fbb9b8f349792da26
 8. When you first run the shortcut, enter the databaseToken you made up in step 3
 9. try "Hey Siri, Roam Note"
 10. On Mac, try sharing a page from Chrome, Arc or Safari using the Share Menu -> Shortcuts -> Roam Note
