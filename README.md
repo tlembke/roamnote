@@ -33,4 +33,4 @@ To add the javascript that enables post processing :
 
    2. All notes are sent and stored unencrypted, so avoid using personal or sensitive information. Use at your own risk.
 
-Credit: Thanks to @abhay for guidance in developing this project.
+Credit: Thanks to @abhay for advice in developing this project. However, any mistakes are mine alone.
