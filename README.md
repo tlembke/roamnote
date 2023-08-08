@@ -10,10 +10,14 @@ To send notes, URLs, pdfs and images from MacOSX and iOS to Roam Research using 
 8. On MacOSX, you can run 'Roam Note' from Siri, or from the MenuBar, or from the Share Sheet or Services menu.
 9. In iOS, in the Shortcuts menu, add 'Roam Note' to the home screen and you have a new app. You can also use Roam Note from the Sharing Sheet. Try sharing a web page or image or selected text.
 
-If you would like to post-process the newly created roamnote blocks, you can add the javascript in the file roamnotes.js to your roam graph.
-This is optional.
-Post-processing will check blocks added from Roam Note to see if they contain a url that points to a pdf or image. If they do, the image or pdf will be imported into your graph. Try added a block 'https://upload.wikimedia.org/wikipedia/commons/6/61/Astrolabe-black.png #roamnote #new' to see it in action.
+If you would like to post-process the newly created roamnote blocks, you can add the javascript in the file roamnotes.js to your roam graph. This is optional.
+
+Post-processing will check blocks added from Roam Note to see if they contain a url that points to a pdf or image. If they do, the image or pdf will be imported into your graph. 
+
+Try added a block 'https://upload.wikimedia.org/wikipedia/commons/6/61/Astrolabe-black.png #roamnote #new' to see it in action.
+
 The default setting is to check for new blocks every 2 minutes. You can change this by changing the constant 'timeInterval'
+
 Note that due to CORS restrictions on some servers, PDFs will not always upload successfully. On IOS, you can share an image or the url link to a pdf file using the Share Sheet. In Safari, images must be opened in a separate tab before sharing that tab, or you can copy the image URL and paste it into 'Roam Note'. (sharing an image in iOS sends a URL, sharing an image on Mac sends the blob)
 
 To add the javascript that enables post processing :
