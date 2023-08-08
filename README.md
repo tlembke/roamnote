@@ -4,13 +4,13 @@ To send notes, URLs, pdfs and images from MacOSX and iOS to Roam Research using 
 2. Download the Apple Shortcut 'Roam Note' from [iCloud](https://www.icloud.com/shortcuts/0b7be4c5b5104d6180769d377a3d3488)
 3. Upon initial execution of the shortcut, you will be prompted to input your Roam Graph API Token and the name of your roam graph. These are available from Roam > Settings > Graph
 4. You can use the default tags of 'roamnote' and 'new'. 'new' will be removed when the newly created block is processed (cf below). If you don't want to post process your notes, leave blank.
-6. That's it!
+5. That's it!
+6. You can test the shortcut by saying, "Hey Siri, Roam Note".
 7. On MacOSX Shortcuts App > Settings > Sidebar, select Share Sheet, Apple Watch, Quick Actions and Menu Bar (if not already selected)
-8. You can test the shortcut by saying, "Hey Siri, Roam Note".
-9. On MacOSX, you can run 'Roam Note' from Siri, or from the MenuBar, or from the Share Sheet or Services menu.
-10. In iOS, in the Shortcuts menu, add 'Roam Note' to the home screen and you have a new app. You can also use Roam Note from the Sharing Sheet. Try sharing a web page or image or selected text.
+8. On MacOSX, you can run 'Roam Note' from Siri, or from the MenuBar, or from the Share Sheet or Services menu.
+9. In iOS, in the Shortcuts menu, add 'Roam Note' to the home screen and you have a new app. You can also use Roam Note from the Sharing Sheet. Try sharing a web page or image or selected text.
 
-If you would like to post-process newly created roamnote blocks, you need to add the javascript in the file roamnotes.js to your roam graph.
+If you would like to post-process the newly created roamnote blocks, you can add the javascript in the file roamnotes.js to your roam graph.
 This is optional.
 Post-processing will check blocks added from Roam Note to see if they contain a url that points to a pdf or image. If they do, the image or pdf will be imported into your graph. Try added a block 'https://upload.wikimedia.org/wikipedia/commons/6/61/Astrolabe-black.png #roamnote #new' to see it in action.
 The default setting is to check for new blocks every 2 minutes. You can change this by changing the constant 'timeInterval'
