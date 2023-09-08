@@ -1,4 +1,5 @@
 To send notes, URLs, pdfs and images from MacOSX and iOS to Roam Research using Siri, the Share Sheet, or the Services/Context menu, follow these steps:
+NB - this is alpha so use at your own risk!
 
 1. Create a back up of your graph before testing. Use at your own risk.
 2. Download the Apple Shortcut 'Roam Note' from [iCloud](https://www.icloud.com/shortcuts/3cea56582d124c0f93664485ef6571ba)
@@ -33,4 +34,4 @@ To add the javascript that enables post processing :
 
    2. All notes are sent and stored unencrypted, so avoid using personal or sensitive information. Use at your own risk.
 
-Credit: Thanks to @abhay for advice in developing this project. However, any mistakes are mine alone.
+
